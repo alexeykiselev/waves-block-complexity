@@ -2,7 +2,10 @@ module github.com/alexeykiselev/waves-block-complexity
 
 go 1.18
 
-require github.com/wavesplatform/gowaves v0.9.0
+require (
+	github.com/pkg/errors v0.9.1
+	github.com/wavesplatform/gowaves v0.9.0
+)
 
 require (
 	github.com/btcsuite/btcd v0.20.1-beta // indirect
@@ -10,7 +13,6 @@ require (
 	github.com/jinzhu/copier v0.0.0-20190625015134-976e0346caa8 // indirect
 	github.com/kilic/bls12-381 v0.0.0-20200820230200-6b2c19996391 // indirect
 	github.com/mr-tron/base58 v1.1.2 // indirect
-	github.com/pkg/errors v0.9.1 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	go.uber.org/atomic v1.4.0 // indirect
 	go.uber.org/multierr v1.1.0 // indirect
